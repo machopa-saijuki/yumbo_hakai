@@ -488,7 +488,7 @@ function endRound(){
       <div class="share"><div class="best">結果をシェア</div><div class="srow"><a class="sbtn x" id="shX" target="_blank" rel="noopener">𝕏 ポスト</a><a class="sbtn line" id="shL" target="_blank" rel="noopener">LINEで送る</a><button class="sbtn cp" id="shC">コピー</button></div></div>
       <div class="brand"><div class="pby">Produced by</div><img src="${$('logoSrc').src}" alt="彩重機エンジニアリング"><a href="https://www.instagram.com/saijuki_heavyequipment/" target="_blank" rel="noopener">Instagramをチェック</a></div>`;
     show('result');
-    const URL_='https://claude.ai/artifact/7oWpK69q7v3bw3grJdVCXj';
+    const URL_='https://machopa-saijuki.github.io/yumbo_hakai/';
     const txt=`「ぶっ壊せ！ユンボ」で被害総額${yen(score)}！ムカつくビル${roundBoards.length}棟を粉砕${best>=0?'（最高レア'+RAR[best].k+'）':''}\n#ぶっ壊せユンボ #彩重機エンジニアリング`;
     $('shX').href='https://x.com/intent/post?text='+encodeURIComponent(txt)+'&url='+encodeURIComponent(URL_);
     $('shL').href='https://social-plugins.line.me/lineit/share?url='+encodeURIComponent(URL_)+'&text='+encodeURIComponent(txt);
